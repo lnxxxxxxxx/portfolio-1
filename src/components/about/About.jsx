@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.css"
 import AboutImg from "../../assets/profile.jpeg";
-import CV from "../../assets/Leandro2022D.pdf";
+import CV from "../../assets/Leandro2023.pdf";
 import Info from './Info';
 
 export const About = () => {
@@ -16,7 +16,7 @@ export const About = () => {
         <div className="about__data">
             <Info />
 
-            <p className="about__description">Passionate about programming, dedicated to creating, innovating and improving functional products, with great ambition to continue improving and learning day by day, committed and open to any offer.</p>
+            <p className="about__description">I am a software developer with 1 year of experience in technologies: spring, mysql, hibernate, node, react, git, github. I have great leadership, innovation, problem solving, communication, organization and group motivation skills. I have developed and implemented rest microservices.</p>
 
             <a download="" href={CV} className="button button--flex">
             Download CV 

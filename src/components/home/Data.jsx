@@ -55,7 +55,7 @@ export const Data = () => {
                 </svg>
         </h1>
         <h3 className="home__subtitle">Software Developer</h3>
-        <p className="home__description">Passionate about programming, dedicated to creating, innovating and improving functional products, with great ambition to continue improving and learning day by day, committed and open to any offer.</p>
+        <p className="home__description">I am a software developer with 1 year of experience in technologies: spring, mysql, hibernate, node, react, git, github. I have great leadership, innovation, problem solving, communication, organization and group motivation skills. I have developed and implemented rest microservices.</p>
         
         <a href="" className="button button--flex">
             Say Hello 
