@@ -3,7 +3,7 @@ import React from 'react'
 export const Data = () => {
   return (
     <div className="home__data">
-        <h1 className="home__title">Leandro Matias Luna
+        <h1 className="home__title">Full-Stack Developer 
         <svg
                   width="36"
                   height="36"
@@ -55,9 +55,9 @@ export const Data = () => {
                 </svg>
         </h1>
         <h3 className="home__subtitle">Software Developer</h3>
-        <p className="home__description">I am a software developer with 1 year of experience in technologies: spring, mysql, hibernate, node, react, git, github. I have great leadership, innovation, problem solving, communication, organization and group motivation skills. I have developed and implemented rest microservices.</p>
+        <p className="home__description">Hi, I'm Leandro Luna👋, I'm from San Isidro, Buenos Aires, Argentina, a current Informatics Engineering student.</p>
         
-        <a href="" className="button button--flex">
+        {/* <a href="" className="button button--flex">
             Say Hello 
             <svg
                   class="button__icon"
@@ -76,7 +76,8 @@ export const Data = () => {
                     fill="var(--container-color)"
                   ></path>
                 </svg>
-        </a>
+        </a> */}
+        
     </div>
   )
 }
