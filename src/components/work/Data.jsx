@@ -15,19 +15,19 @@ export const projectsData = [
         id:2,
         image: Work2,
         title: 'Web design',
-        category: 'web',
+        category: 'Web',
     },
     {
         id:3,
         image: Work3,
         title: 'Web design',
-        category: 'web',
+        category: 'script',
     },
     {
         id:4,
         image: Work4,
         title: 'Web design',
-        category: 'web',
+        category: 'app',
     }
 ];
 
