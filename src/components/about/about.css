@@ -3,7 +3,14 @@
     align-items: center;
     column-gap: 4rem;
 }
-
+.hidden {
+    opacity: 0;
+  }
+  
+  .animate__fadeIn {
+    opacity: 1;
+  }
+  
 .about__img {
     width: 350px;
     border-radius: 1.5rem;

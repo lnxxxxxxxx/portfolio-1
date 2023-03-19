@@ -3,12 +3,13 @@ import "./about.css"
 import AboutImg from "../../assets/profile.jpeg";
 import CV from "../../assets/Leandro2023.pdf";
 import Info from './Info';
+import "animate.css";
 
 export const About = () => {
   return (
     <section className="about section" id="about">
-        <h2 className="section__title">About me</h2>
-        <span className="section__subtitle">My introduction</span>
+        <h2 className="section__title animate__animated animate__slideInLeft" style={{ animationDuration: '6s'}}>About me</h2>
+      <span className="section__subtitle animate__animated animate__slideInRight" style={{ animationDuration: '6s'}}>My introduction</span>
 
         <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
